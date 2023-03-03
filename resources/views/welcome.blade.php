@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
@@ -13,194 +13,33 @@
     >
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>Wer hat den SPÖ Vorsitz?</title>
+    <meta
+        name="description"
+        content="Wer ist aktuelle/r SPÖ Vorsitzende/r"
+    >
 </head>
 
 <body>
     <div class="relative bg-white">
-        <div class="mx-auto max-w-7xl">
-            <div class="relative z-10 lg:w-full lg:max-w-2xl">
-                <svg
-                    class="absolute inset-y-0 right-8 hidden h-full w-80 translate-x-1/2 transform fill-white lg:block"
-                    viewBox="0 0 100 100"
-                    preserveAspectRatio="none"
-                    aria-hidden="true"
-                >
-                    <polygon points="0,0 90,0 50,100 0,100" />
-                </svg>
-
-                <div class="relative px-6 pt-6 lg:pl-8 lg:pr-0">
-                    <nav
-                        class="flex items-center justify-between sm:h-10 lg:justify-start"
-                        aria-label="Global"
-                    >
-                        <a
-                            href="#"
-                            class="-m-1.5 p-1.5"
-                        >
-                            <span class="sr-only">Your Company</span>
-                            <img
-                                alt="Your Company"
-                                class="h-8 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                            >
-                        </a>
-                        <button
-                            type="button"
-                            class="-m-2.5 rounded-md p-2.5 text-gray-700 lg:hidden"
-                        >
-                            <span class="sr-only">Open main menu</span>
-                            <svg
-                                class="h-6 w-6"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke-width="1.5"
-                                stroke="currentColor"
-                                aria-hidden="true"
-                            >
-                                <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                                />
-                            </svg>
-                        </button>
-                        <div class="hidden lg:ml-12 lg:block lg:space-x-14">
-                            <a
-                                href="#"
-                                class="text-sm font-semibold leading-6 text-gray-900"
-                            >Product</a>
-
-                            <a
-                                href="#"
-                                class="text-sm font-semibold leading-6 text-gray-900"
-                            >Features</a>
-
-                            <a
-                                href="#"
-                                class="text-sm font-semibold leading-6 text-gray-900"
-                            >Marketplace</a>
-
-                            <a
-                                href="#"
-                                class="text-sm font-semibold leading-6 text-gray-900"
-                            >Company</a>
-
-                            <a
-                                href="#"
-                                class="text-sm font-semibold leading-6 text-gray-900"
-                            >Log in</a>
-                        </div>
-                    </nav>
-                    <!-- Mobile menu, show/hide based on menu open state. -->
-                    <div
-                        role="dialog"
-                        aria-modal="true"
-                    >
-                        <div class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
-                            <div class="flex flex-row-reverse items-center justify-between">
-                                <button
-                                    type="button"
-                                    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-                                >
-                                    <span class="sr-only">Close menu</span>
-                                    <svg
-                                        class="h-6 w-6"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke-width="1.5"
-                                        stroke="currentColor"
-                                        aria-hidden="true"
-                                    >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            d="M6 18L18 6M6 6l12 12"
-                                        />
-                                    </svg>
-                                </button>
-                                <a
-                                    href="#"
-                                    class="-m-1.5 p-1.5"
-                                >
-                                    <span class="sr-only">Your Company</span>
-                                    <img
-                                        class="h-8"
-                                        src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                                        alt=""
-                                    >
-                                </a>
-                            </div>
-                            <div class="mt-6 space-y-2">
-                                <a
-                                    href="#"
-                                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-                                >Product</a>
-
-                                <a
-                                    href="#"
-                                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-                                >Features</a>
-
-                                <a
-                                    href="#"
-                                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-                                >Marketplace</a>
-
-                                <a
-                                    href="#"
-                                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-                                >Company</a>
-
-                                <a
-                                    href="#"
-                                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10"
-                                >Log in</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="relative py-32 px-6 sm:py-40 lg:py-56 lg:px-8 lg:pr-0">
-                    <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-                        <div class="hidden sm:mb-10 sm:flex">
-                            <div
-                                class="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                                Anim aute id magna aliqua ad ad non deserunt sunt. <a
-                                    href="#"
-                                    class="whitespace-nowrap font-semibold text-indigo-600"
-                                ><span
-                                        class="absolute inset-0"
-                                        aria-hidden="true"
-                                    ></span>Read more <span aria-hidden="true">&rarr;</span></a>
-                            </div>
-                        </div>
-                        <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Data to enrich your
-                            online business</h1>
-                        <p class="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt
-                            sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat
-                            aliqua.</p>
-                        <div class="mt-10 flex items-center gap-x-6">
-                            <a
-                                href="#"
-                                class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                            >Get started</a>
-                            <a
-                                href="#"
-                                class="text-sm font-semibold leading-6 text-gray-900"
-                            >Learn more <span aria-hidden="true">→</span></a>
-                        </div>
-                    </div>
+        <div class="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
+            <div class="px-6 pt-10 pb-24 sm:pb-32 lg:col-span-7 lg:px-0 lg:pt-48 lg:pb-56 xl:col-span-6">
+                <div class="mx-auto max-w-2xl lg:mx-0">
+                    <h1 class="mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">Wer hat den
+                        SPÖ-Vorsitz?</h1>
+                    <p class="mt-6 text-lg leading-8 text-gray-600">Seit 24. November 2018: Dr.<sup>in</sup> Pamela
+                        Rendi-Wagner</p>
                 </div>
             </div>
-        </div>
-        <div class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-            <img
-                class="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-                src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"
-                alt=""
-            >
+            <div class="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
+                <img
+                    class="aspect-[4/3] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
+                    src="https://www.pamelarendiwagner.at/wp-content/uploads/sites/821/2022/04/prw-ein-land-prinz-51964007331-o.jpg"
+                    alt="Dr.in Pamela Rendi-Wagner"
+                >
+            </div>
         </div>
     </div>
+    <div class="block p-2 text-right">&copy; Kurt Prinz</div>
 </body>
 
 </html>
