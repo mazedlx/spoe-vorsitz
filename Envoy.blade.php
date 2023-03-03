@@ -5,6 +5,8 @@
     php artisan down
     git stash
     git pull
+    npm install
+    npm run build
     composer install --no-dev
     php artisan optimize
     php artisan responsecache:clear
