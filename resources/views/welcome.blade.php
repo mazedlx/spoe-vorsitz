@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html lang="de">
+@extends('layouts.app')
 
-<head>
-    <meta charset="UTF-8">
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-    <meta
-        http-equiv="X-UA-Compatible"
-        content="ie=edge"
-    >
-    @vite(['resources/css/app.css'])
-    <title>Wer hat den SPÖ Vorsitz?</title>
-    <meta
-        name="description"
-        content="Wer ist aktuelle/r SPÖ Vorsitzende/r"
-    >
-</head>
-
-<body>
+@section('content')
     <div class="relative bg-white">
         <div class="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
             <div class="px-6 pt-10 pb-24 sm:pb-32 lg:col-span-7 lg:px-0 lg:pt-48 lg:pb-56 xl:col-span-6">
@@ -28,6 +9,12 @@
                         SPÖ-Vorsitz?</h1>
                     <p class="mt-6 text-lg leading-8 text-gray-600">Seit 24. November 2018: Dr.<sup>in</sup> Pamela
                         Rendi-Wagner</p>
+                </div>
+                <div class="mt-20">
+                    <a
+                        href="{{ route('imprint') }}"
+                        class="text-xs underline"
+                    >Impressum</a>
                 </div>
             </div>
             <div class="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
@@ -40,6 +27,4 @@
         </div>
     </div>
     <div class="block p-2 text-right">&copy; Kurt Prinz</div>
-</body>
-
-</html>
+@endsection
