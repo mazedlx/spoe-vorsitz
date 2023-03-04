@@ -20,7 +20,7 @@
             <div class="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
                 <img
                     class="aspect-[4/3] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
-                    src="https://www.pamelarendiwagner.at/wp-content/uploads/sites/821/2022/04/prw-ein-land-prinz-51964007331-o.jpg"
+                    src="{{ config('image.url') }}"
                     alt="Dr.in Pamela Rendi-Wagner"
                 >
             </div>
