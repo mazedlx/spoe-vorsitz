@@ -25,5 +25,5 @@
             </div>
         </div>
     </div>
-    <div class="block p-2 text-right">&copy; SPÖ/David Višnjić</div>
+    <div class="block p-2 text-right">&copy; {{ config('image.copy') }}</div>
 @endsection
