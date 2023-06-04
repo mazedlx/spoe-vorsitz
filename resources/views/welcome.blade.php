@@ -7,8 +7,7 @@
                 <div class="max-w-2xl mx-auto lg:mx-0">
                     <h1 class="mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">Wer hat den
                         SPÖ-Vorsitz?</h1>
-                    <p class="mt-6 text-lg leading-8 text-gray-600">Seit 24. November 2018: Dr.<sup>in</sup> Pamela
-                        Rendi-Wagner</p>
+                    <p class="mt-6 text-lg leading-8 text-gray-600">Seit 03. Juni 2023: Mag. Hans Peter Doskozil</p>
                 </div>
                 <div class="mt-20">
                     <a
@@ -21,10 +20,10 @@
                 <img
                     class="aspect-[4/3] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
                     src="{{ config('image.url') }}"
-                    alt="Dr.in Pamela Rendi-Wagner"
+                    alt="Mag. Hans Peter Doskozil"
                 >
             </div>
         </div>
     </div>
-    <div class="block p-2 text-right">&copy; Kurt Prinz</div>
+    <div class="block p-2 text-right">&copy; SPÖ/David Višnjić</div>
 @endsection
