@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'url' => 'https://images.oe24.at/babler.jpg/1600x900Crop/542.874.396',
-    'copy' => 'APA',
+    'url' => 'https://live.staticflickr.com/65535/52947539290_d5c3e0aaaa_h.jpg',
+    'copy' => 'SPÖ/David Višnjić',
 ];
